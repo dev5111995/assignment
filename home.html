@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first webpage</title>
+    <style>
+        #topbar{
+            background-color: rgb(4, 40, 87);
+            padding: 25px;
+            color:lightyellow;
+            font-weight: 400;
+             
+        }
+        #topbar:hover{
+            color:yellow;
+        }
+        .menu-item{
+            font-size: 30px;
+            padding: 10px;
+            font-weight: 700;
+            font-family:sans-serif;
+        }
+        #list-heading{
+            font-size: 30px;
+            padding-left: 24px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        #list-heading:hover{
+            color:brown;
+        }
+        .foodlist-item{
+            font-size: 30px;
+            text-decoration: none;
+        }
+        .foodimg{
+            width:350px;
+            height:300px;
+
+        }
+        .food-wrapper{
+            text-align: center;
+            justify-content: center;
+        
+        }
+    </style>
+  </head>
+  <body style="margin:0;
+   background-image: linear-gradient(to right, #b3d4f2, #96bcff, #9b9dff, #bb73f2, #e125ca);;">
+    <div id="topbar">
+      <span class="menu-item">Index</span-item>
+      <span class="menu-item">Food</span>
+      <span class="menu-item">About</span>
+    </div>
+    <h1 id="list-heading">Some Favourite food list</h1>
+    <ul>
+        <li><a class="foodlist-item" href="#Biryani">Biryani</a></li>
+        <li><a class="foodlist-item" href="#Cakes">Cakes</a</li>
+        <li><a class="foodlist-item" href="#Chinese">Chinese</a</li>
+        <li><a class="foodlist-item" href="#Dosa">Dosa</a</li>
+        <li><a class="foodlist-item" href="#Sweets">Sweets</a</li>
+    </ul>
+    <div class="food-wrapper">
+        <img  id="Biryani" class="foodimg" src="https://tandoorikitchen.in/wp-content/uploads/2022/03/Hyderabadi-chicken-Biryani.jpg" alt="">
+        <p>Biryani</p>
+    </div>
+    <div class="food-wrapper">
+        <img id="Cakes" class="foodimg" src="https://5.imimg.com/data5/NI/IH/QU/ANDROID-90366522/img-20190619-153251-jpg-500x500.jpg" alt="">
+        <p>Cakes</p>
+    </div>
+    <div class="food-wrapper">
+        <img id="Chinese" class="foodimg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrSodh2_bz3T_LLA16yP9WdpyAoAUkC5-TdA&usqp=CAU" alt="">
+        <p>Chinese</p>
+    </div>
+    <div class="food-wrapper">
+        <img id="Dosa" class="foodimg" src="https://cdn.tasteatlas.com/Images/Dishes/ba7bab747c7e41769dbc895a84626a23.jpg" alt="">
+        <p>Dosa</p>
+    </div>
+    <div class="food-wrapper">
+        <img id="Sweets" class="foodimg" src="https://static.toiimg.com/photo/87304656.cms" alt="">
+        <p>Sweets</p>
+    </div>
+  </body>
+</html>
